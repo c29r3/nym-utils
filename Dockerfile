@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 MAINTAINER c29r3
 
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
-    apt-transport-https ca-certificates jq nano wget curl htop whois build-essential \
+    apt-transport-https ca-certificates jq nano wget curl htop whois build-essential
 
 WORKDIR /root
 
