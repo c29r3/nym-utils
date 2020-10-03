@@ -12,4 +12,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
 
 EXPOSE 1789
 
-ENTRYPOINT /root/nym-mixnode run --id 1
+ENTRYPOINT ["/root/nym-mixnode run --id 1"]
