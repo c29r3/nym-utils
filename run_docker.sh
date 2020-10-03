@@ -1,4 +1,3 @@
-#/bin/bash
 docker run -d \
   --restart always \
   --entrypoint /usr/bin/nym-mixnode \
