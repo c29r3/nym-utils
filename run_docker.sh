@@ -4,7 +4,7 @@ docker run -d \
   --entrypoint /usr/bin/nym-mixnode \
   --volume /root/nym/.nym/:/root/.nym \
   --name nym-1 \
-  -p 1789:1789 \
+  -p 0.0.0.0:1789:1789 \
   --log-opt max-size=100m \
   --log-opt max-file=3 \
   c29r3/nym-mixnode:v0.8.1 \
