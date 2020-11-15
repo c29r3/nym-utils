@@ -1,7 +1,8 @@
+mkdir $HOME/nym; \
 docker run -d \
   --restart always \
   --entrypoint /usr/bin/nym-mixnode \
-  --volume /root/nym/.nym/:/root/.nym \
+  --volume $HOME/nym/.nym/:/root/.nym \
   --network host \
   --name nym-1 \
   -p 1789 \
