@@ -10,4 +10,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
     && apt-get clean \
     && apt-get autoclean
 
+EXPOSE 3085
+
 ENTRYPOINT ["/root/nym-mixnode run --id 1"]
