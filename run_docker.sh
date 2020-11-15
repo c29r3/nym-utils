@@ -8,5 +8,5 @@ docker run -d \
   -p 1789 \
   --log-opt max-size=100m \
   --log-opt max-file=3 \
-  c29r3/nym-mixnode:v0.9.1 \
+  c29r3/nym-mixnode:v0.9.0 \
   run --id 1
