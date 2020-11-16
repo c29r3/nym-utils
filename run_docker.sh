@@ -1,6 +1,6 @@
 docker run -d \
   --restart always \
-  --entrypoint /usr/bin/nym-mixnode \
+  --entrypoint /root/nym-mixnode \
   --volume $HOME/.nym/:/root/.nym \
   --network host \
   --name nym \
